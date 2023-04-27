@@ -14,7 +14,7 @@ source:
 build:
   skip: true  # [py<37]
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
   entry_points:
     - versioneer = versioneer:main
 
