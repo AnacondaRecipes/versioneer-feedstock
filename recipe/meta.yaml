@@ -46,8 +46,8 @@ about:
   description: |
     This is a tool for managing a recorded version number
     in setuptools-based python projects.
-  dev_url: https://marshmallow.readthedocs.io/
-  doc_url: https://marshmallow.readthedocs.io/en/stable/
+  dev_url: https://github.com/python-versioneer/python-versioneer/blob/master/pyproject.toml
+  doc_url: https://github.com/python-versioneer/python-versioneer/blob/master/pyproject.toml
 
 extra:
   recipe-maintainers:
