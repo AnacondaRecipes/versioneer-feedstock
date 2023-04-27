@@ -35,7 +35,7 @@ test:
     - pip
   commands:
     - pip check
-    - versioneer version
+    - {{ SP_DIR }}/versioneer version
 
 about:
   home: https://github.com/python-versioneer/python-versioneer
