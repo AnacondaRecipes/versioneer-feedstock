@@ -30,7 +30,7 @@ requirements:
 
 test:
   imports:
-    - marshmallow
+    - versioneer
   requires:
     - pip
   commands:
