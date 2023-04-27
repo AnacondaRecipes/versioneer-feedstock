@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  skip: true  # [py<37]
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
@@ -21,13 +21,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python
     - setuptools
-    - tomli
+    - wheel
+    - tomli 2.0.1
   run:
-    - python >=3.7
+    - python
 
 test:
+  imports:
+    - marshmallow
   requires:
     - pip
   commands:
@@ -38,7 +41,13 @@ about:
   home: https://github.com/python-versioneer/python-versioneer
   license: Unlicense
   license_file: LICENSE
+  license_family: None
   summary: Easy VCS-based management of project version strings
+  description: |
+    A lightweight library for converting complex
+    datatypes to and from native Python datatypes.
+  dev_url: https://marshmallow.readthedocs.io/
+  doc_url: https://marshmallow.readthedocs.io/en/stable/
 
 extra:
   recipe-maintainers:
