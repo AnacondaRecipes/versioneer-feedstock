@@ -24,7 +24,7 @@ requirements:
     - python
     - setuptools
     - wheel
-    - tomli 2.0.1
+    - tomli 2.0.1  # [py<311]
   run:
     - python
 
