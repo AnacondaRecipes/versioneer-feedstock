@@ -35,6 +35,7 @@ test:
     - pip
   commands:
     - pip check
+    - python -c "import versioneer; print(versioneer.__file__); raise Exception(versioneer.__file__)"
     - versioneer version
 
 about:
