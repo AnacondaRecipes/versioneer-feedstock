@@ -35,7 +35,9 @@ test:
     - pip
   commands:
     - pip check
-    - versioneer version
+    # CI is picking up versioneer from builder environment
+    # commenting out this test until ticket SIR-588 is resolved.
+    - versioneer version  # [not osx]
 
 about:
   home: https://github.com/python-versioneer/python-versioneer
