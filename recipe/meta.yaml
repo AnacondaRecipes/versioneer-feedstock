@@ -46,8 +46,8 @@ about:
   description: |
     This is a tool for managing a recorded version number
     in setuptools-based python projects.
-  dev_url: https://github.com/python-versioneer/python-versioneer/blob/master/pyproject.toml
-  doc_url: https://github.com/python-versioneer/python-versioneer/blob/master/pyproject.toml
+  dev_url: https://github.com/python-versioneer/python-versioneer
+  doc_url: https://github.com/python-versioneer/python-versioneer
 
 extra:
   recipe-maintainers:
