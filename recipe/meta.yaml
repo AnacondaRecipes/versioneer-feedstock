@@ -43,7 +43,7 @@ about:
   home: https://github.com/python-versioneer/python-versioneer
   license: Unlicense
   license_file: LICENSE
-  license_family: None
+  license_family: OTHER
   summary: Easy VCS-based management of project version strings
   description: |
     This is a tool for managing a recorded version number
