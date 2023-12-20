@@ -41,7 +41,7 @@ about:
   home: https://github.com/python-versioneer/python-versioneer
   license: Unlicense
   license_file: LICENSE
-  license_family: OTHER
+  license_family: PUBLIC-DOMAIN
   summary: Easy VCS-based management of project version strings
   description: |
     This is a tool for managing a recorded version number
